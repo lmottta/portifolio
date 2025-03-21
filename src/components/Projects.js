@@ -135,33 +135,13 @@ const Projects = () => {
                   
                   <div className="p-6">
                     <p className="text-gray-300 mb-4">{project.description}</p>
-                    <a 
-                      href={project.link}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-block px-4 py-2 bg-gradient-to-r from-secondary to-accent rounded text-white font-medium hover:from-accent hover:to-secondary transition-all"
-                    >
-                      Ver Projeto
-                    </a>
                   </div>
                 </motion.div>
               ))}
             </AnimatePresence>
           </div>
           
-          <div className="text-center mt-12">
-            <a 
-              href="https://github.com/lmottta?tab=repositories" 
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center px-5 py-3 bg-darkBlue/50 hover:bg-darkBlue/70 rounded-lg text-white font-medium transition-colors"
-            >
-              Ver Mais no GitHub
-              <svg className="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-              </svg>
-            </a>
-          </div>
+       
         </motion.div>
       </div>
     </section>
