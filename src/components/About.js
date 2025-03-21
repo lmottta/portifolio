@@ -82,12 +82,26 @@ const About = () => {
                 
                 <div>
                   <p className="text-gray-400 mb-1">LinkedIn:</p>
-                  <p className="text-gray-100 font-medium">@devmota</p>
+                  <a 
+                    href="https://www.linkedin.com/in/devmota/" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="text-gray-100 font-medium hover:text-accent transition-colors"
+                  >
+                    @devmota
+                  </a>
                 </div>
                 
                 <div>
                   <p className="text-gray-400 mb-1">Portfólio:</p>
-                  <p className="text-gray-100 font-medium">www.attonweb.com.br</p>
+                  <a 
+                    href="https://devlamota.netlify.app/" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="text-gray-100 font-medium hover:text-accent transition-colors"
+                  >
+                    devlamota
+                  </a>
                 </div>
               </div>
               
