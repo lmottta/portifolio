@@ -79,18 +79,21 @@ const Skills = () => {
           transition={{ duration: 0.6 }}
         >
           <h2 className="section-title text-center">Minhas Habilidades</h2>
+          <p className="text-center text-slate-300 mt-4 max-w-3xl mx-auto">
+            Stack técnico aplicado em projetos de engenharia, integração e automação.
+          </p>
           
           <div className="mt-10 grid grid-cols-1 md:grid-cols-2 gap-8">
             {skillCategories.map((category, categoryIndex) => (
               <motion.div 
                 key={categoryIndex}
-                className="bg-darkBlue/30 rounded-lg p-6 shadow-xl"
+                className="surface-panel-soft p-6"
                 variants={container}
                 initial="hidden"
                 whileInView="show"
                 viewport={{ once: true }}
               >
-                <h3 className="text-xl font-semibold mb-6 text-center gradient-text">
+                <h3 className="text-xl font-semibold mb-6 text-center gradient-text tracking-tight">
                   {category.category}
                 </h3>
                 
@@ -98,12 +101,12 @@ const Skills = () => {
                   {category.skills.map((skill, skillIndex) => (
                     <motion.div key={skillIndex} variants={item}>
                       <div className="flex justify-between mb-1">
-                        <span className="text-gray-200">{skill.name}</span>
-                        <span className="text-gray-400">{skill.level}%</span>
+                        <span className="text-slate-200">{skill.name}</span>
+                        <span className="text-slate-400">{skill.level}%</span>
                       </div>
-                      <div className="w-full bg-gray-700 rounded-full h-2.5">
+                      <div className="w-full bg-slate-800 rounded-full h-2.5">
                         <motion.div 
-                          className="h-2.5 rounded-full bg-gradient-to-r from-secondary to-accent"
+                          className="h-2.5 rounded-full bg-gradient-to-r from-neon to-accent"
                           initial={{ width: 0 }}
                           whileInView={{ width: `${skill.level}%` }}
                           viewport={{ once: true }}
@@ -117,9 +120,8 @@ const Skills = () => {
             ))}
           </div>
           
-          {/* Tools and Technologies Grid */}
           <div className="mt-16">
-            <h3 className="text-2xl font-semibold mb-8 text-center text-gray-100">
+            <h3 className="text-2xl font-semibold mb-8 text-center text-slate-100">
               Ferramentas & Tecnologias
             </h3>
             
@@ -131,14 +133,14 @@ const Skills = () => {
               ].map((tech, index) => (
                 <motion.div
                   key={index}
-                  className="bg-darkBlue/20 rounded-lg p-4 text-center hover:bg-accent/10 transition-colors"
+                  className="surface-panel-soft p-4 text-center hover:border-neon/40 transition-colors"
                   whileHover={{ y: -5 }}
                   initial={{ opacity: 0, y: 20 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.3, delay: index * 0.05 }}
                 >
-                  <span className="text-gray-200">{tech}</span>
+                  <span className="text-slate-200">{tech}</span>
                 </motion.div>
               ))}
             </div>

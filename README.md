@@ -1,76 +1,89 @@
-# Portfólio Profissional - Leonardo Mota
+# Leonardo Mota
+**Engenheiro de Sistemas | Python Full Stack | Engenharia de Dados | Cloud | Automação**
 
-Este é o repositório do meu portfólio profissional, desenvolvido com React e TailwindCSS, apresentando minha experiência, habilidades e projetos como Desenvolvedor Python Fullstack.
+Feira de Santana - BA  
+Email: dev.lamota@gmail.com  
+Telefone: (47) 99202-2771  
+LinkedIn: https://linkedin.com/in/devmota  
+GitHub: https://github.com/lmottta  
+Portfólio: https://devlamota.netlify.app/
 
-## Visão Geral
+## Resumo Profissional
 
-Este portfólio apresenta:
+Engenheiro de Sistemas com atuação em arquitetura de software, backend Python, engenharia de dados e automação de processos. Experiência em desenho e implantação de APIs, pipelines ETL/ELT, integração cloud e sustentação de ambientes críticos. Perfil orientado a governança, performance, segurança e qualidade de entrega.
 
-- Informações detalhadas sobre minha trajetória profissional com mais de 21 anos de experiência em TI
-- Experiências de trabalho em empresas como First Decision, Neocredit e BP Investimentos
-- Habilidades técnicas em Python, Django, Flask, SQL, AWS e mais
-- Projetos desenvolvidos e contribuições para a comunidade
-- Formulário de contato e links para redes sociais
+## Competências-Chave
 
-## Tecnologias Utilizadas
+- Arquitetura de Software e Integração de Sistemas
+- Backend Python (FastAPI, Flask, Django)
+- Engenharia de Dados (Pandas, NumPy, PySpark, SQL)
+- Cloud (AWS, Azure, GCP)
+- DevOps (Docker, Kubernetes, Terraform, CI/CD)
+- Automação e RPA sob demanda
+- Observabilidade, estabilidade operacional e melhoria contínua
 
-- **React**: Biblioteca JavaScript para construção de interfaces
-- **TailwindCSS**: Framework CSS utilitário 
-- **DaisyUI**: Componentes para TailwindCSS
-- **Framer Motion**: Biblioteca para animações
-- **PostCSS**: Ferramenta para transformação de CSS
+## Stack Técnica
 
-## Funcionalidades
+**Linguagens:** Python, SQL, JavaScript, HTML/CSS, VBA  
+**Frameworks/Bibliotecas:** FastAPI, Flask, Django, Pandas, NumPy, PySpark, React  
+**Dados:** PostgreSQL, SQL Server, MySQL, MongoDB, DynamoDB  
+**Cloud e Infra:** AWS, Azure, GCP, Docker, Kubernetes, Terraform, Jenkins  
+**Ferramentas:** Git, Airflow, Pentaho PDI, Power BI, Selenium, PyAutoGUI
 
-- Design responsivo para todos os dispositivos
-- Animações suaves usando Framer Motion
-- Navegação intuitiva com rolagem suave
-- Tema escuro moderno com elementos visuais atrativos
-- Formulário de contato funcional
+## Experiência Profissional
 
-## Como Executar Localmente
+### Qintess — Engenheiro de Dados
+**mai/2024 - atual**
+- Atuação na SPU/MGI em Engenharia e Ciência de Dados para processos públicos críticos
+- Construção de pipelines ETL escaláveis, APIs de dados e dashboards analíticos
+- Aumento de governança e qualidade de dados com baixo impacto em produção
 
-1. Clone o repositório:
-```bash
-git clone https://github.com/devmota/portfolio
-```
+### Stefanini Brasil — Desenvolvedor Python (Fullstack)
+**set/2024 - jan/2026**
+- Atuação em contexto de análise de risco e confiabilidade de dados no Itaú
+- Implementação de pipelines e componentes de ETL robustos em ecossistema AWS
+- Evolução de práticas de CI/CD e previsibilidade de entrega
 
-2. Instale as dependências:
-```bash
-cd portfolio
-npm install
-```
+### First Decision — Desenvolvedor Python (Fullstack)
+**nov/2023 - ago/2024**
+- Alocação no LNCC/MCTI para modernização de plataforma científica
+- Desenvolvimento full stack e apoio à arquitetura de migração
+- Melhoria da eficiência dos fluxos de pesquisa molecular
 
-3. Execute o servidor de desenvolvimento:
-```bash
-npm run dev
-```
+### Neocredit — Desenvolvedor Python (Backend)
+**jul/2023 - nov/2023**
+- Desenvolvimento de APIs e evolução de motores analíticos para crédito
+- Customizações full stack e estabilização de fluxos de decisão
 
-4. Acesse o site em http://localhost:3000
+### SONDA (Transpetro) — Administrador de Sistemas Sênior
+**dez/2022 - mai/2023**
+- Sustentação de infraestrutura híbrida e ambientes corporativos críticos
+- Administração de serviços, containers e automações operacionais
 
-## Estrutura do Projeto
+### BP Investimentos — Analista de Sistemas SR
+**mar/2020 - dez/2021**
+- Desenvolvimento de aplicações internas e dashboards executivos
+- Migração de fluxo de câmbio para Data Warehouse e avanço para Data Lake em cloud
 
-```
-portfolio/
-├── public/             # Recursos estáticos
-├── src/
-│   ├── components/     # Componentes React
-│   ├── pages/          # Páginas da aplicação
-│   ├── styles/         # Arquivos CSS e estilos
-│   └── App.js          # Componente principal
-├── package.json        # Dependências do projeto
-├── postcss.config.js   # Configuração do PostCSS
-└── tailwind.config.js  # Configuração do TailwindCSS
-```
+### Rede de Postos Grupo BP — Engenheiro de Dados
+**jan/2016 - jan/2020**
+- BI e engenharia de dados para operação de varejo e conveniência
+- Automação de relatórios e indicadores com redução de esforço manual
 
-## Contato
+### Attom Web Sistemas — Desenvolvedor Nocode Freelancer
+**jul/2019 - atual**
+- Entrega de apps e plataformas com integrações e automações por domínio
+- Apoio à digitalização de processos em PMEs
 
-- **Email**: dev.lmota@gmail.com
-- **LinkedIn**: [/in/devmota](https://linkedin.com/in/devmota)
-- **GitHub**: [/devmota](https://github.com/devmota)
-- **Telefone**: (47) 99202-2771
-- **Website**: [www.attonweb.com.br](https://www.attonweb.com.br)
+## Formação Acadêmica
 
----
+- Bacharel em Sistemas de Informação — Universidade Presbiteriana Mackenzie (2004 - 2009)
+- Pós-Graduação em Segurança da Informação — IGTI (2011 - 2012)
+- MBA em Gestão de Projetos — Fundação Getúlio Vargas (2013 - 2015)
+- Mestrado em Análise de Dados — Universidade Estadual de Feira de Santana (2016 - 2018)
 
-Desenvolvido por Leonardo Mota © 2024 
+## Idioma e Disponibilidade
+
+- Português (nativo)
+- Inglês técnico para leitura e documentação
+- Disponível para oportunidades em Engenharia de Sistemas, Dados, Backend Python e Arquitetura

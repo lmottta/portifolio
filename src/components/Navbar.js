@@ -19,7 +19,6 @@ const Navbar = () => {
     { name: 'Sobre', href: '#about' },
     { name: 'Experiência', href: '#experience' },
     { name: 'Habilidades', href: '#skills' },
-    { name: 'Projetos', href: '#projects' },
     { name: 'Contato', href: '#contact' },
   ];
 
@@ -30,44 +29,42 @@ const Navbar = () => {
       transition={{ duration: 0.5 }}
       className={`fixed w-full z-50 transition-all duration-300 ${
         isScrolled 
-          ? 'bg-darkBlue/90 backdrop-blur-md shadow-lg' 
+          ? 'bg-darkBlue/85 backdrop-blur-xl border-b border-white/10 shadow-xl shadow-black/20' 
           : 'bg-transparent'
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between h-16 items-center">
+        <div className="flex justify-between h-20 items-center">
           <div className="flex-shrink-0">
             <Link href="/">
-              <span className="text-xl font-bold gradient-text">Leonardo Mota</span>
+              <span className="text-xl sm:text-2xl font-semibold gradient-text tracking-tight">Leonardo Mota</span>
             </Link>
           </div>
-          
-          {/* Desktop menu */}
+
           <div className="hidden md:block">
             <div className="ml-10 flex items-center space-x-6">
               {navItems.map((item) => (
                 <Link
                   key={item.name}
                   href={item.href}
-                  className="nav-link text-gray-200 font-medium"
+                  className="nav-link text-slate-200 font-medium"
                 >
                   {item.name}
                 </Link>
               ))}
               <a
                 href="#contact"
-                className="bg-accent hover:bg-accent/90 text-white px-4 py-2 rounded-md font-medium transition-colors"
+                className="btn-primary px-4 py-2 text-sm"
               >
                 Contato
               </a>
             </div>
           </div>
-          
-          {/* Mobile menu button */}
+
           <div className="md:hidden flex items-center">
             <button
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-              className="inline-flex items-center justify-center p-2 rounded-md text-gray-200 hover:text-accent focus:outline-none"
+              className="inline-flex items-center justify-center p-2 rounded-lg text-slate-200 hover:text-neon focus:outline-none border border-white/10 bg-white/5"
             >
               <svg
                 className={`${isMobileMenuOpen ? 'hidden' : 'block'} h-6 w-6`}
@@ -92,7 +89,6 @@ const Navbar = () => {
         </div>
       </div>
 
-      {/* Mobile menu */}
       <motion.div
         className={`${isMobileMenuOpen ? 'block' : 'hidden'} md:hidden`}
         initial={{ opacity: 0, height: 0 }}
@@ -102,12 +98,12 @@ const Navbar = () => {
         }}
         transition={{ duration: 0.3 }}
       >
-        <div className="px-2 pt-2 pb-3 space-y-1 bg-darkBlue/95 backdrop-blur-md shadow-lg">
+        <div className="mx-4 mb-4 px-2 pt-2 pb-3 space-y-1 bg-surface/95 backdrop-blur-xl shadow-lg border border-white/10 rounded-2xl">
           {navItems.map((item) => (
             <Link
               key={item.name}
               href={item.href}
-              className="block px-3 py-2 rounded-md text-gray-200 hover:text-accent font-medium"
+              className="block px-3 py-2 rounded-md text-slate-200 hover:text-neon font-medium hover:bg-white/5"
               onClick={() => setIsMobileMenuOpen(false)}
             >
               {item.name}
